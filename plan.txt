@@ -1,0 +1,23 @@
+Plan for creating chat web application using node adn socket.io
+
+Following some Steps as :-
+
+#. Create NPM Project     (Done)
+
+#. Create Index, css, js files  (Done)
+
+#. Install dependecies serve  (serve.js)   (# npm install express) , (npm install nodemon -D) Done
+
+#. Create a express serve (serve.js)  (# npm install express) Done
+
+#. Go to package.json and change into scripte {text = 'xyz' to dev = "nodemon srever"}    Done
+
+#. Do frontend part  (Done)
+
+#. Install socket.io , setup socket.io in serve.js and client client.js   (npm install socket.io) then start server " npm reu serverName -> dev "  and also setup of socket.io in your server.js file      Done
+
+#. Client send message logic in client.js
+
+#. Recieve message on server and brodcast to all clientes
+
+#. Recieve message on client and display it. scrollToBottom and so on ....

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="icon" href="image/favicon.png">
+    <!-- css file -->
+    <link rel="stylesheet" href="/style.css">
+    <title>Chatting App</title>
+</head>
+
+<body>
+    <section class="chat__section">
+        <!-- brand and image -->
+        <div class="brand">
+            <img height="40" src="/chat-dev.png" alt="chat-dev">
+            <!-- app name -->
+            <h5>Chating-Dev</h5>
+        </div>
+
+        <!-- incoming & outgoing message area -->
+        <div class="message__area">
+            <!-- Show all the Incoming and Outgoing here -->
+        </div>
+        <!-- send message area here -->
+        <div>
+            <textarea id="textarea" cols="30" rows="1" placeholder="Write a message..."></textarea>
+        </div>
+    </section>
+    <!-- socket.io file -->
+    <script src="/socket.io/socket.io.js"></script>
+    <!-- js file -->
+    <script src="/client.js"></script>
+</body>
+
+</html>
